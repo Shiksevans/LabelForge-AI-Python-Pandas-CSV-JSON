@@ -96,11 +96,3 @@ Rationale: shipping is the primary issue; the message expresses both a negative 
 - Urgency is a demonstration label, not a validated service policy.
 - No production model has been trained or improved by this repository.
 
-## Portfolio presentation
-In your CV or portfolio, describe this as an **independent synthetic-data annotation and QA benchmark**. Link to the repository, show the handbook and sample outputs, and report only metrics produced by your own run. Do not claim client experience or production deployment.
-
-## Suggested next steps
-- Expand to 300–500 messages and include difficult/ambiguous examples.
-- Add a second annotator and calculate Cohen's kappa.
-- Create a small dashboard for label distributions and error categories.
-- Add a documented adjudication workflow and versioned releases.
