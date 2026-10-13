@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "row_count": 60,
+  "unique_record_ids": 60,
+  "duplicate_id_rows": 0,
+  "empty_text_rows": 0,
+  "missing_values_by_column": {
+    "record_id": 0,
+    "text": 0,
+    "intent": 0,
+    "sentiment": 0,
+    "urgency": 0,
+    "review_required": 0
+  },
+  "invalid_label_details": {},
+  "label_distributions": {
+    "intent": {
+      "account_access": 12,
+      "billing": 14,
+      "product_feedback": 11,
+      "shipping": 12,
+      "technical_support": 11
+    },
+    "sentiment": {
+      "mixed": 10,
+      "negative": 25,
+      "neutral": 16,
+      "positive": 9
+    },
+    "urgency": {
+      "high": 18,
+      "low": 19,
+      "medium": 23
+    },
+    "review_required": {
+      "human_review": 25,
+      "no_review": 35
+    }
+  },
+  "error_count": 0,
+  "errors": [],
+  "warnings": [],
+  "note": "Structural validation only; a PASS does not establish semantic label correctness."
+}
