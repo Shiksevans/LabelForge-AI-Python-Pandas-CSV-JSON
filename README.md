@@ -20,17 +20,25 @@ labelforge_ai/
 ├── requirements.txt
 ├── data/
 │   ├── annotation_dataset.csv
-│   └── unlabeled_batch.csv
+│   ├── unlabeled_batch.csv
+│   ├── annotator_a_template.csv
+│   └── annotator_b_template.csv
 ├── guidelines/
 │   └── annotation_handbook.md
 ├── src/
-│   └── validate_dataset.py
+│   ├── validate_dataset.py
+│   ├── compare_annotations.py
+│   └── compare_to_reference.py
 ├── tests/
-│   └── test_validation.py
+│   ├── test_validation.py
+│   ├── test_compare_annotations.py
+│   └── test_compare_to_reference.py
 ├── examples/
 │   └── worked_examples.md
 └── reports/
-    └── quality_report.json  # created by running the validator
+    ├── quality_report.json
+    ├── reference_comparison/       # starts INCOMPLETE until labels are entered
+    └── independent_agreement/      # starts INCOMPLETE until both reviewers label
 ```
 
 ## Quick start
@@ -48,29 +56,37 @@ python src/validate_dataset.py --input data/annotation_dataset.csv --report repo
 python -m unittest discover -s tests -v
 ```
 
-The validator checks required columns, missing values, duplicate IDs, empty text, invalid label values, and label distributions. It writes a JSON report and exits with a non-zero status if validation errors are found.
+## Independent annotation and reference comparison
+Independent annotation and reference comparison
 
-## Dataset schema
-| Field | Type | Description |
-|---|---|---|
-| record_id | string | Unique synthetic record identifier |
-| text | string | Customer-support message |
-| intent | category | Primary issue category |
-| sentiment | category | Overall expressed sentiment |
-| urgency | category | Simulated routing urgency |
-| review_required | category | Whether a human should review the case |
+The 60-row data/unlabeled_batch.csv contains my independent annotations for four fields: intent, sentiment, urgency, and review_required. The annotations were completed using guidelines/annotation_handbook.md before comparison with the reference dataset.
 
-Allowed labels are documented in `guidelines/annotation_handbook.md`.
+To reproduce the comparison, run:
 
-## Quality metrics
-The validator calculates:
-- Total rows and unique IDs
-- Missing-value and empty-text counts
-- Duplicate ID count
-- Invalid-label counts by field
-- Label distribution by field
+python src/compare_to_reference.py \
+  --annotations data/unlabeled_batch.csv \
+  --reference data/annotation_dataset.csv \
+  --output-dir reports/reference_comparison
 
-For annotation agreement, label a separate copy independently or ask a second reviewer to annotate the same sample without seeing the original labels. Then compare per-field agreement or Cohen's kappa. Do not use agreement with the authored labels as proof of independent inter-annotator reliability.
+The current reference-comparison report records 60/60 exact matches for each of the four fields, with zero disagreements and 100% observed agreement with the reference labels. The comparison also reports 60/60 rows valid for each field.
+
+Important interpretation: annotation_dataset.csv contains synthetic, authored reference labels, not independently verified ground truth. These results measure agreement with that reference—not objective correctness, model performance, or inter-annotator reliability. The perfect agreement should be interpreted cautiously and does not establish that the annotation process is error-free.
+
+The output files include agreement_report.md, field_agreement.csv, disagreements.csv, confusion_matrices.csv, validation_issues.csv, and validation_report.json. Review any future mismatches against the handbook and document adjudication decisions rather than silently changing labels.
+
+### Optional: compare two independent reviewers
+
+For true inter-annotator agreement, use two separate blind annotation files rather than one annotation pass versus the existing reference. The blank files are `data/annotator_a_template.csv` and `data/annotator_b_template.csv`. Give the same source messages to both reviewers without exposing one another's labels, save completed copies as `data/annotator_a.csv` and `data/annotator_b.csv`, then run:
+Current status: The two-reviewer workflow remains incomplete because the annotator templates have not yet been filled in. The generated reports/independent_agreement/ files therefore do not represent completed inter-annotator agreement results.
+```bash
+python src/compare_annotations.py \
+  --source data/unlabeled_batch.csv \
+  --annotator-a data/annotator_a.csv \
+  --annotator-b data/annotator_b.csv \
+  --output-dir reports/independent_agreement
+```
+
+This creates the same kinds of field metrics and disagreement outputs, but compares Annotator A with Annotator B. If the same person performs two passes, describe it as self-reannotation rather than two independent annotators. Cohen's kappa may be mathematically undefined for fields with no label variation; the script reports that transparently.
 
 ## Worked example
 Text: “The delivery was late, but the product works perfectly.”

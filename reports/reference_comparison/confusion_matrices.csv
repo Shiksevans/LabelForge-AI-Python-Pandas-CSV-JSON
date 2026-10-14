@@ -1,0 +1,15 @@
+field,annotation_label,reference_label,count
+intent,account_access,account_access,12
+intent,billing,billing,14
+intent,product_feedback,product_feedback,11
+intent,shipping,shipping,12
+intent,technical_support,technical_support,11
+sentiment,mixed,mixed,10
+sentiment,negative,negative,25
+sentiment,neutral,neutral,16
+sentiment,positive,positive,9
+urgency,high,high,18
+urgency,low,low,19
+urgency,medium,medium,23
+review_required,human_review,human_review,25
+review_required,no_review,no_review,35

@@ -1,0 +1,5 @@
+field,source_reference_rows,paired_valid_n,matches,disagreements,exact_agreement_percent,cohens_kappa_vs_reference,note
+intent,60,60,60,0,100.0,1.0,Reference-agreement statistic; interpret in context of this synthetic benchmark.
+sentiment,60,60,60,0,100.0,1.0,Reference-agreement statistic; interpret in context of this synthetic benchmark.
+urgency,60,60,60,0,100.0,1.0,Reference-agreement statistic; interpret in context of this synthetic benchmark.
+review_required,60,60,60,0,100.0,1.0,Reference-agreement statistic; interpret in context of this synthetic benchmark.

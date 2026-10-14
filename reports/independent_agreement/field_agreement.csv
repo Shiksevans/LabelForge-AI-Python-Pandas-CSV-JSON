@@ -1,0 +1,5 @@
+field,source_rows,paired_valid_n,matching_n,disagreement_n,percent_agreement,cohens_kappa,interpretation_note
+intent,60,0,0,0,,,Kappa is undefined when expected agreement is 1.0 or there are no paired valid labels.
+sentiment,60,0,0,0,,,Kappa is undefined when expected agreement is 1.0 or there are no paired valid labels.
+urgency,60,0,0,0,,,Kappa is undefined when expected agreement is 1.0 or there are no paired valid labels.
+review_required,60,0,0,0,,,Kappa is undefined when expected agreement is 1.0 or there are no paired valid labels.

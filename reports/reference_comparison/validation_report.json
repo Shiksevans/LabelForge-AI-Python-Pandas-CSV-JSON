@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "annotations_path": "C:\\Users\\BEST\\OneDrive\\Desktop\\labelforge_ai\\data\\unlabeled_batch.csv",
+  "reference_path": "C:\\Users\\BEST\\OneDrive\\Desktop\\labelforge_ai\\data\\annotation_dataset.csv",
+  "annotation_row_count": 60,
+  "reference_row_count": 60,
+  "annotation_complete_valid_rows": 60,
+  "exact_match_on_all_fields_rows": 60,
+  "issues_count": 0,
+  "issues": [],
+  "note": "The reference labels are synthetic authored benchmark labels. Results measure agreement with this reference, not objective correctness or inter-annotator reliability. Complete status means the annotation file is structurally complete; it does not mean there are no label disagreements."
+}

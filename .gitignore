@@ -1,0 +1,26 @@
+﻿# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm and IDE settings
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db

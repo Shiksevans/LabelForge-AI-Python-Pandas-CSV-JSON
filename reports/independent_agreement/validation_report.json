@@ -1,0 +1,3388 @@
+{
+  "status": "INCOMPLETE",
+  "source_path": "data/unlabeled_batch.csv",
+  "annotator_a_path": "data/annotator_a_template.csv",
+  "annotator_b_path": "data/annotator_b_template.csv",
+  "source_row_count": 60,
+  "source_unique_id_count": 60,
+  "annotator_a_input_rows": 60,
+  "annotator_b_input_rows": 60,
+  "annotator_a_complete": false,
+  "annotator_b_complete": false,
+  "annotator_a_valid_label_counts": {
+    "intent": 0,
+    "sentiment": 0,
+    "urgency": 0,
+    "review_required": 0
+  },
+  "annotator_b_valid_label_counts": {
+    "intent": 0,
+    "sentiment": 0,
+    "urgency": 0,
+    "review_required": 0
+  },
+  "issues_count": 480,
+  "issues": [
+    {
+      "file": "annotator_a",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_a",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF044",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF059",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF020",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF016",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF015",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF023",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF024",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF031",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF037",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF054",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF058",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF027",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF047",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF012",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF028",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF039",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF026",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF029",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF007",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF019",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF042",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF034",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF005",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF010",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF046",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF002",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF043",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF048",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF001",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF017",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF003",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF045",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF050",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF022",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF033",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF056",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF060",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF055",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF025",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF013",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF004",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF030",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF038",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF052",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF014",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF006",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF040",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF049",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF041",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF008",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF032",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF051",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF057",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF035",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF036",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF009",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF018",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF053",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF011",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'intent'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'sentiment'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'urgency'."
+    },
+    {
+      "file": "annotator_b",
+      "record_id": "LF021",
+      "row": "",
+      "issue": "missing_label",
+      "detail": "No label supplied for field 'review_required'."
+    }
+  ],
+  "note": "A field metric uses only records with valid labels from both annotators and source-matching text. The report remains INCOMPLETE until both files contain one valid annotation for every source record."
+}
