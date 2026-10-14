@@ -112,11 +112,16 @@ Rationale: shipping is the primary issue; the message expresses both a negative 
 - Urgency is a demonstration label, not a validated service policy.
 - No production model has been trained or improved by this repository.
 
-## Portfolio presentation
-In your CV or portfolio, describe this as an **independent synthetic-data annotation and QA benchmark**. Link to the repository, show the handbook and sample outputs, and report only metrics produced by your own run. Do not claim client experience or production deployment.
-
 ## Suggested next steps
-- Expand to 300–500 messages and include difficult/ambiguous examples.
-- Add a second annotator and calculate Cohen's kappa.
-- Create a small dashboard for label distributions and error categories.
-- Add a documented adjudication workflow and versioned releases.
+
+Complete both independent annotation templates using separately produced labels.
+
+Run the annotation comparison workflow and review field-level agreement and disagreements.
+
+Investigate disagreements and document how they are resolved.
+
+Add more independently reviewed examples to evaluate the workflow on a broader dataset.
+
+Rerun the tests and regenerate the reports after making changes.
+
+Current limitation: The independent agreement workflow remains incomplete until both annotation templates contain valid, independently produced labels. The synthetic reference comparison measures agreement with the supplied reference labels; it does not establish real-world annotation accuracy
