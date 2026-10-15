@@ -44,5 +44,60 @@ class ValidationTests(unittest.TestCase):
         }])
         self.assertEqual(validate_dataframe(df)["status"], "FAIL")
 
+    def test_missing_record_id_fails(self):
+        row = {
+            "record_id": None, "text": "Where is my invoice?",
+            "intent": "billing", "sentiment": "neutral",
+            "urgency": "low", "review_required": "no_review"
+        }
+        report = validate_dataframe(pd.DataFrame([row]))
+        self.assertEqual(report["status"], "FAIL")
+        self.assertIn(
+            "missing_record_ids",
+            [error["type"] for error in report["errors"]]
+        )
+
+    def test_blank_record_id_fails(self):
+        row = {
+            "record_id": "   ", "text": "Where is my invoice?",
+            "intent": "billing", "sentiment": "neutral",
+            "urgency": "low", "review_required": "no_review"
+        }
+        report = validate_dataframe(pd.DataFrame([row]))
+        self.assertEqual(report["status"], "FAIL")
+        self.assertIn(
+            "missing_record_ids",
+            [error["type"] for error in report["errors"]]
+        )
+
+    def test_whitespace_only_label_is_reported_as_missing(self):
+        row = {
+            "record_id": "T001", "text": "Where is my invoice?",
+            "intent": "   ", "sentiment": "neutral",
+            "urgency": "low", "review_required": "no_review"
+        }
+        report = validate_dataframe(pd.DataFrame([row]))
+        self.assertEqual(report["status"], "FAIL")
+        self.assertEqual(
+            report["invalid_label_details"]["intent"]["null_count"], 1
+        )
+        self.assertEqual(
+            report["invalid_label_details"]["intent"]["invalid_values"], []
+        )
+
+    def test_whitespace_padded_valid_label_fails(self):
+        row = {
+            "record_id": "T001", "text": "Where is my invoice?",
+            "intent": " billing ", "sentiment": "neutral",
+            "urgency": "low", "review_required": "no_review"
+        }
+        report = validate_dataframe(pd.DataFrame([row]))
+        self.assertEqual(report["status"], "FAIL")
+        self.assertIn(
+            " billing ",
+            report["invalid_label_details"]["intent"]["invalid_values"]
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
