@@ -1,12 +1,12 @@
 # LabelForge AI — Independent Annotation Agreement Report
 
-**Status:** INCOMPLETE
+**Status:** COMPLETE
 
 ## Method
 
-- Source batch: `data/unlabeled_batch.csv` (60 source rows; 60 unique record IDs).
-- Annotator A: `data/annotator_a_template.csv` — incomplete or invalid.
-- Annotator B: `data/annotator_b_template.csv` — incomplete or invalid.
+- Source batch: `data\unlabeled_source.csv` (60 source rows; 60 unique record IDs).
+- Annotator A: `data\simulated_annotator_a.csv` — complete.
+- Annotator B: `data\simulated_annotator_b.csv` — complete.
 - Per-field exact agreement is the share of comparable records receiving the same label.
 - Cohen's kappa adjusts observed agreement for agreement expected from annotator label marginals.
 - Only labels that are allowed by the handbook and whose record text matches the source are included in a field's paired comparison.
@@ -15,17 +15,17 @@
 
 | Field | Paired valid n | Matches | Disagreements | Exact agreement | Cohen's kappa |
 |---|---:|---:|---:|---:|---:|
-| intent | 0 | 0 | 0 | N/A | undefined (insufficient variation or no paired labels) |
-| sentiment | 0 | 0 | 0 | N/A | undefined (insufficient variation or no paired labels) |
-| urgency | 0 | 0 | 0 | N/A | undefined (insufficient variation or no paired labels) |
-| review_required | 0 | 0 | 0 | N/A | undefined (insufficient variation or no paired labels) |
+| intent | 60 | 59 | 1 | 98.3% | 0.977 |
+| sentiment | 60 | 59 | 1 | 98.3% | 0.968 |
+| urgency | 60 | 58 | 2 | 96.7% | 0.895 |
+| review_required | 60 | 58 | 2 | 96.7% | 0.782 |
 
 ## Completion and disagreement summary
 
-- Records with valid labels for all fields from both annotators: 0 of 60.
-- Records with complete labels and identical labels on all four fields: 0 of 60.
-- Field-level disagreements ready for review: 0.
-- Data validation issues recorded: 480.
+- Records with valid labels for all fields from both annotators: 60 of 60.
+- Records with complete labels and identical labels on all four fields: 54 of 60.
+- Field-level disagreements ready for review: 6.
+- Data validation issues recorded: 0.
 
 ## Interpretation and limitations
 

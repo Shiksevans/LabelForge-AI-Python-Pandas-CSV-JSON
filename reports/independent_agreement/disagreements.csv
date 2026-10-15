@@ -1,1 +1,7 @@
 record_id,text,field,annotator_a_label,annotator_b_label,issue,adjudication_status,adjudicated_label,adjudication_rationale
+LF012,I need help changing my two-factor authentication settings.,intent,product_feedback,technical_support,label_disagreement,pending,,
+LF008,"I love the service, but the latest update removed my favorite feature.",sentiment,mixed,positive,label_disagreement,pending,,
+LF003,"My package arrived two days late, but the product works perfectly.",urgency,medium,low,label_disagreement,pending,,
+LF018,Please stop sending promotional emails to this address.,urgency,low,medium,label_disagreement,pending,,
+LF004,The app crashes every time I open the settings page.,review_required,human_review,no_review,label_disagreement,pending,,
+LF025,Everything arrived safely. No complaints at all.,review_required,no_review,human_review,label_disagreement,pending,,

@@ -75,18 +75,16 @@ Important interpretation: annotation_dataset.csv contains synthetic, authored re
 The output files include agreement_report.md, field_agreement.csv, disagreements.csv, confusion_matrices.csv, validation_issues.csv, and validation_report.json. Review any future mismatches against the handbook and document adjudication decisions rather than silently changing labels.
 
 ### Optional: compare two independent reviewers
+For a future real inter-annotator agreement study, use two separate annotation files completed independently by two reviewers. Start with data/annotator_a_template.csv and data/annotator_b_template.csv. Give both reviewers the same source messages without revealing one another's labels. Save their completed files as data/annotator_a.csv and data/annotator_b.csv.
+Current demonstration status: The comparison script has been tested using 60 synthetic source records and two simulated annotation files. The workflow completed with zero validation issues and generated field-level agreement metrics, Cohen's kappa, confusion matrices, and disagreement reports. These results demonstrate the software workflow only; they are not real inter-annotator agreement results.
+To reproduce the simulated test, run:
 
-For true inter-annotator agreement, use two separate blind annotation files rather than one annotation pass versus the existing reference. The blank files are `data/annotator_a_template.csv` and `data/annotator_b_template.csv`. Give the same source messages to both reviewers without exposing one another's labels, save completed copies as `data/annotator_a.csv` and `data/annotator_b.csv`, then run:
-Current status: The two-reviewer workflow remains incomplete because the annotator templates have not yet been filled in. The generated reports/independent_agreement/ files therefore do not represent completed inter-annotator agreement results.
-```bash
-python src/compare_annotations.py \
-  --source data/unlabeled_batch.csv \
-  --annotator-a data/annotator_a.csv \
-  --annotator-b data/annotator_b.csv \
-  --output-dir reports/independent_agreement
-```
+py src/compare_annotations.py \
+  --source data/unlabeled_source.csv \
+  --annotator-a data/simulated_annotator_a.csv \
+  --annotator-b data/simulated_annotator_b.csv
 
-This creates the same kinds of field metrics and disagreement outputs, but compares Annotator A with Annotator B. If the same person performs two passes, describe it as self-reannotation rather than two independent annotators. Cohen's kappa may be mathematically undefined for fields with no label variation; the script reports that transparently.
+For a future study using real independent reviewers, use the completed reviewer files and the appropriate source dataset instead. Cohen's kappa may be mathematically undefined when there is no label variation; the script reports this transparently.
 
 ## Worked example
 Text: “The delivery was late, but the product works perfectly.”
@@ -114,14 +112,14 @@ Rationale: shipping is the primary issue; the message expresses both a negative 
 
 ## Suggested next steps
 
-Complete both independent annotation templates using separately produced labels.
+Completed: Test the comparison workflow using 60 synthetic source records and two simulated annotation files.
 
-Run the annotation comparison workflow and review field-level agreement and disagreements.
+Completed: Generate field-level agreement metrics, Cohen's kappa, confusion matrices, disagreement records, and validation reports.
 
-Investigate disagreements and document how they are resolved.
+Future work: Conduct a blind annotation exercise with two real reviewers.
 
-Add more independently reviewed examples to evaluate the workflow on a broader dataset.
+Future work: Adjudicate disagreements and document final decisions with supporting rationales.
 
-Rerun the tests and regenerate the reports after making changes.
+Future work: Expand the dataset, rerun automated tests, and evaluate the workflow on additional examples.
 
-Current limitation: The independent agreement workflow remains incomplete until both annotation templates contain valid, independently produced labels. The synthetic reference comparison measures agreement with the supplied reference labels; it does not establish real-world annotation accuracy
+Current limitation: The workflow has been tested using simulated annotations. Real inter-annotator agreement has not yet been measured because two real reviewers have not independently annotated the dataset. The synthetic reference comparison also does not establish real-world annotation accuracy.
