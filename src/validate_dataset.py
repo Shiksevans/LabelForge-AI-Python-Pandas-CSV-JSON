@@ -5,19 +5,20 @@ import json
 from pathlib import Path
 import sys
 import pandas as pd
+from schema_config import DEFAULT_ALLOWED, load_schema
 
-ALLOWED = {
-    "intent": {"billing", "shipping", "technical_support", "account_access", "product_feedback"},
-    "sentiment": {"positive", "negative", "neutral", "mixed"},
-    "urgency": {"low", "medium", "high"},
-    "review_required": {"human_review", "no_review"},
-}
+ALLOWED = DEFAULT_ALLOWED
 REQUIRED_COLUMNS = ["record_id", "text", *ALLOWED.keys()]
 
-def validate_dataframe(df: pd.DataFrame) -> dict:
+def validate_dataframe(
+    df: pd.DataFrame,
+    allowed: dict[str, set[str]] | None = None,
+) -> dict:
+    schema = allowed if allowed is not None else ALLOWED
+    required_columns = ["record_id", "text", *schema.keys()]
     errors = []
     warnings = []
-    missing_columns = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    missing_columns = [c for c in required_columns if c not in df.columns]
     if missing_columns:
         errors.append({"type": "missing_columns", "columns": missing_columns})
         return {
@@ -26,7 +27,7 @@ def validate_dataframe(df: pd.DataFrame) -> dict:
         }
 
     missing_by_column = {
-        col: int(df[col].isna().sum()) for col in REQUIRED_COLUMNS
+        col: int(df[col].isna().sum()) for col in required_columns
     }
 
     # Treat null, empty, and whitespace-only record IDs as missing.
@@ -45,14 +46,14 @@ def validate_dataframe(df: pd.DataFrame) -> dict:
     )
 
     invalid_labels = {}
-    for field, allowed in ALLOWED.items():
+    for field, allowed_labels in schema.items():
         raw_values = df[field]
         blank_mask = (
             raw_values.isna()
             | raw_values.astype("string").str.strip().eq("")
         )
         values = set(raw_values[~blank_mask].astype(str).unique())
-        invalid = sorted(values - allowed)
+        invalid = sorted(values - allowed_labels)
         nulls = int(blank_mask.sum())
         if invalid or nulls:
             invalid_labels[field] = {"invalid_values": invalid, "null_count": nulls}
@@ -73,7 +74,7 @@ def validate_dataframe(df: pd.DataFrame) -> dict:
         errors.append({"type": "empty_dataset"})
 
     distributions = {}
-    for field in ALLOWED:
+    for field in schema:
         counts = df[field].fillna("<MISSING>").astype(str).value_counts().sort_index()
         distributions[field] = {str(k): int(v) for k, v in counts.items()}
 
@@ -97,6 +98,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", required=True, help="Path to annotation CSV")
     parser.add_argument("--report", default="reports/quality_report.json", help="Output JSON report")
+    parser.add_argument(
+        "--schema",
+        help="Optional path to a JSON annotation schema",
+    )
     args = parser.parse_args()
     input_path = Path(args.input)
     if not input_path.exists():
@@ -107,7 +112,13 @@ def main() -> int:
     except Exception as exc:
         print(f"ERROR: unable to read CSV: {exc}", file=sys.stderr)
         return 2
-    report = validate_dataframe(df)
+    try:
+        schema = load_schema(args.schema) if args.schema else ALLOWED
+    except (ValueError, OSError) as exc:
+        print(f"ERROR: invalid schema: {exc}", file=sys.stderr)
+        return 2
+
+    report = validate_dataframe(df, allowed=schema)
     report_path = Path(args.report)
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")

@@ -16,6 +16,21 @@ class ValidationTests(unittest.TestCase):
         }])
         self.assertEqual(validate_dataframe(df)["status"], "PASS")
 
+    def test_custom_schema_rejects_invalid_label(self):
+        df = pd.DataFrame([{
+            "record_id": "T002",
+            "text": "I need customer support",
+            "category": "billing",
+        }])
+
+        report = validate_dataframe(
+            df,
+            allowed={"category": {"support", "sales"}},
+        )
+
+        self.assertEqual(report["status"], "FAIL")
+        self.assertIn("category", report["invalid_label_details"])
+
     def test_invalid_label_fails(self):
         df = pd.DataFrame([{
             "record_id": "T001", "text": "Where is my invoice?",
@@ -97,6 +112,23 @@ class ValidationTests(unittest.TestCase):
             " billing ",
             report["invalid_label_details"]["intent"]["invalid_values"]
         )
+
+    def test_custom_schema_passes(self):
+        df = pd.DataFrame([{
+            "record_id": "T001",
+            "text": "I need customer support",
+            "category": "support",
+        }])
+
+        report = validate_dataframe(
+            df,
+            allowed={"category": {"support", "sales"}},
+        )
+
+        self.assertEqual(report["status"], "PASS")
+        self.assertIn("category", report["label_distributions"])
+        self.assertNotIn("intent", report["label_distributions"])
+
 
 
 if __name__ == "__main__":
