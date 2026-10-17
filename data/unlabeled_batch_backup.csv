@@ -1,0 +1,61 @@
+record_id,text,intent,sentiment,urgency,review_required,,,,,intent,sentiment,urgency,review_required
+LF001,I was charged twice for my monthly plan. Please reverse one payment.,,,,,,,,,billing,negative,high,human_review
+LF002,How can I download the receipt for last month's invoice?,,,,,,,,,billing,neutral,low,no_review
+LF003,"My package arrived two days late, but the product works perfectly.",,,,,,,,,shipping,mixed,medium,no_review
+LF004,The app crashes every time I open the settings page.,,,,,,,,,technical_support,negative,high,human_review
+LF005,Thanks! The new dashboard is much easier to use.,,,,,,,,,product_feedback,positive,low,no_review
+LF006,I cannot log in even after resetting my password three times.,,,,,,,,,account_access,negative,high,human_review
+LF007,Can you change the email address associated with my account?,,,,,,,,,account_access,neutral,medium,no_review
+LF008,"I love the service, but the latest update removed my favorite feature.",,,,,,,,,product_feedback,mixed,medium,human_review
+LF009,Where can I find the tracking number for my order?,,,,,,,,,shipping,neutral,low,no_review
+LF010,Your agent promised a refund last week and nothing has happened. This is unacceptable.,,,,,,,,,billing,negative,high,human_review
+LF011,The delivery was quick and the packaging was excellent.,,,,,,,,,shipping,positive,low,no_review
+LF012,I need help changing my two-factor authentication settings.,,,,,,,,,account_access,neutral,medium,no_review
+LF013,The checkout page shows an error after I enter my card details.,,,,,,,,,technical_support,negative,high,human_review
+LF014,Could you explain what is included in the premium subscription?,,,,,,,,,billing,neutral,low,no_review
+LF015,"The product is good, although customer support took ages to reply.",,,,,,,,,product_feedback,mixed,medium,no_review
+LF016,I think someone else has accessed my account without permission.,,,,,,,,,account_access,negative,high,human_review
+LF017,The tracking page has not updated for five days and my parcel is missing.,,,,,,,,,shipping,negative,high,human_review
+LF018,Please stop sending promotional emails to this address.,,,,,,,,,account_access,negative,medium,no_review
+LF019,Fantastic support—my issue was fixed in under ten minutes.,,,,,,,,,product_feedback,positive,low,no_review
+LF020,"I was billed after cancelling my subscription, and I want an explanation.",,,,,,,,,billing,negative,high,human_review
+LF021,"The website is slow on my phone, but it works fine on my laptop.",,,,,,,,,technical_support,mixed,medium,no_review
+LF022,Can I get an estimate of when the replacement item will ship?,,,,,,,,,shipping,neutral,low,no_review
+LF023,I cannot tell whether my payment went through; the page froze.,,,,,,,,,billing,neutral,high,human_review
+LF024,"The instructions are confusing, and the setup wizard keeps looping.",,,,,,,,,technical_support,negative,medium,human_review
+LF025,Everything arrived safely. No complaints at all.,,,,,,,,,shipping,positive,low,no_review
+LF026,Please merge my duplicate customer profiles if possible.,,,,,,,,,account_access,neutral,medium,no_review
+LF027,I am disappointed that the feature is still unavailable after three updates.,,,,,,,,,product_feedback,negative,medium,no_review
+LF028,"The app says my password is wrong, but I copied it directly from my password manager.",,,,,,,,,account_access,negative,high,human_review
+LF029,Why is there a small service fee on my latest invoice?,,,,,,,,,billing,neutral,low,no_review
+LF030,The courier left the parcel outside in the rain and the box was damaged.,,,,,,,,,shipping,negative,medium,human_review
+LF031,Great value for money; I have recommended this plan to my colleagues.,,,,,,,,,product_feedback,positive,low,no_review
+LF032,I need a copy of the privacy policy and information about data retention.,,,,,,,,,account_access,neutral,low,no_review
+LF033,The export button does nothing when I click it.,,,,,,,,,technical_support,negative,medium,human_review
+LF034,"I was charged the wrong amount, but the support team corrected it quickly.",,,,,,,,,billing,mixed,medium,no_review
+LF035,"My order status says delivered, but nothing is at my address.",,,,,,,,,shipping,negative,high,human_review
+LF036,The new layout looks clean and makes navigation easier.,,,,,,,,,product_feedback,positive,low,no_review
+LF037,I forgot my username and cannot access the account recovery email.,,,,,,,,,account_access,negative,high,human_review
+LF038,"The video tutorial is helpful, but the captions are out of sync.",,,,,,,,,technical_support,mixed,medium,no_review
+LF039,Can I pay my invoice using a bank transfer instead?,,,,,,,,,billing,neutral,low,no_review
+LF040,I am furious: the app deleted the draft I had worked on for an hour.,,,,,,,,,technical_support,negative,high,human_review
+LF041,"The package arrived early, but one item was missing.",,,,,,,,,shipping,mixed,medium,human_review
+LF042,Please explain how to downgrade my subscription without losing my saved files.,,,,,,,,,billing,neutral,medium,no_review
+LF043,The support chat disconnected twice before anyone answered.,,,,,,,,,technical_support,negative,medium,no_review
+LF044,My account is locked and the verification code never arrives.,,,,,,,,,account_access,negative,high,human_review
+LF045,The replacement arrived in perfect condition. Thank you.,,,,,,,,,shipping,positive,low,no_review
+LF046,"I like the product, but the price increase is difficult to justify.",,,,,,,,,product_feedback,mixed,medium,no_review
+LF047,I received an invoice for an account I do not recognize.,,,,,,,,,billing,negative,high,human_review
+LF048,Where can I submit a feature request for a future release?,,,,,,,,,product_feedback,neutral,low,no_review
+LF049,The mobile app keeps signing me out while I am completing a form.,,,,,,,,,technical_support,negative,medium,human_review
+LF050,Everything is working now. I appreciate the quick fix.,,,,,,,,,technical_support,positive,low,no_review
+LF051,"I was charged twice, and the second charge overdrew my account.",,,,,,,,,billing,negative,high,human_review
+LF052,The delivery estimate changed from Friday to Monday. Is that normal?,,,,,,,,,shipping,neutral,medium,no_review
+LF053,I cannot remove an old phone number from my profile.,,,,,,,,,account_access,neutral,medium,no_review
+LF054,"The update is beautiful, but it made the text too small to read comfortably.",,,,,,,,,product_feedback,mixed,medium,no_review
+LF055,The help page gives a 404 error when I open the refund instructions.,,,,,,,,,technical_support,negative,medium,human_review
+LF056,My invoice is correct and the payment receipt arrived immediately.,,,,,,,,,billing,positive,low,no_review
+LF057,"The parcel has been marked as returned, but I never received it.",,,,,,,,,shipping,negative,high,human_review
+LF058,Can support help me update the name shown on my account?,,,,,,,,,account_access,neutral,low,no_review
+LF059,"I am pleased with the quality, although setup took longer than expected.",,,,,,,,,product_feedback,mixed,low,no_review
+LF060,The app charged my saved card after I turned off auto-renewal.,,,,,,,,,billing,negative,high,human_review
